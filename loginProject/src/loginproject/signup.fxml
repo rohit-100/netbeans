@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="signup" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginproject.FXMLController">
+   <children>
+      <Label layoutX="207.0" layoutY="34.0" prefHeight="31.0" prefWidth="121.0" text="Registration">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField id="username" fx:id="name" layoutX="181.0" layoutY="75.0" promptText="name" />
+      <TextField id="password" fx:id="pass" layoutX="182.0" layoutY="125.0" promptText="password" />
+      <Button fx:id="signup" layoutX="289.0" layoutY="191.0" mnemonicParsing="false" onAction="#signupmain" text="signup" />
+   </children>
+</Pane>
